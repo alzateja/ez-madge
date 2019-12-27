@@ -1,0 +1,41 @@
+{
+  "name": "ez-madge",
+  "version": "0.1.0",
+  "description": "Madge made easy! Functions and CLI to map project dependencies",
+  "main": "madge/index.js",
+  "bin": {
+    "ez-madge": "./cli/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "file-exists": "^5.0.1",
+    "fromentries": "^1.2.0",
+    "lodash.get": "^4.4.2",
+    "madge": "^3.6.0",
+    "meow": "^6.0.0",
+    "rambda": "^4.4.0"
+  },
+  "scripts": {
+    "ez-madge": "node ./cli/cli.js",
+    "lint": "./node_modules/.bin/eslint ./",
+    "lint:fix": "./node_modules/.bin/eslint ./ --fix",
+    "test": "./node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jest": "^24.9.0"
+  },
+  "keywords": [
+    "javascript",
+    "npm",
+    "node",
+    "map",
+    "dependency",
+    "madge",
+    "react"
+  ],
+  "author": "alzateja",
+  "license": "MIT"
+}

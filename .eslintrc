@@ -1,0 +1,32 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+      "es6": true,
+      "browser": true,
+      "jest": true
+  },
+  "rules": {
+    "brace-style": [
+          "error",
+          "stroustrup"
+      ],
+      "comma-dangle": [
+          "error",
+          "never"
+      ],
+      "no-unused-vars": [
+        "warn"
+    ],
+      "no-multi-assign:": [
+          "off"
+      ],
+      "no-var": [
+          "off"
+      ],
+      "one-var": [
+          "off"
+      ],
+        "indent": ["error", 2],
+        "semi": ["error", "always"]
+  }
+}
