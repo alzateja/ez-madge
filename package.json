@@ -1,6 +1,6 @@
 {
   "name": "ez-madge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Madge made easy! Functions and CLI to map project dependencies",
   "main": "madge/index.js",
   "bin": {
