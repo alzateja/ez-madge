@@ -81,7 +81,7 @@ CLI or API
 
 You can install the package globally to use the cli
 ```bash
-$ npm install ez-madge -G
+$ npm install -g ez-madge 
 ```
 
 ```
